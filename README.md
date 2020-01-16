@@ -2,7 +2,7 @@
 1 打包maven
 ```jshelllanguage
 mvn clean install -Dmaven.test.skip=true
-``` 
+```
 
 2 运行jar文件
 ```jshelllanguage
@@ -267,6 +267,9 @@ http://10.1.171.197:3000
 
 
 
+在 [Dashboard 市场](https://grafana.com/grafana/dashboards) 中，提供了两个适合 Spring Boot 应用的 Dashboard
 
+- Grafana 导入 [Spring Boot 2.1 Statistics](https://grafana.com/grafana/dashboards/10280)
+- Grafana 导入 [JVM (Micrometer)](https://grafana.com/grafana/dashboards/4701)
 
 参考`https://www.cnblogs.com/xiao987334176/p/9930517.html`
